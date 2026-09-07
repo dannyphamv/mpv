@@ -1,5 +1,7 @@
 # Personal MPV Configs
 
+![mpv preview](mpv_RLnT5LFckD.jpg)
+
 **Alternative OSC for mpv**
 - [ModernZ](https://github.com/Samillion/ModernZ)
 
