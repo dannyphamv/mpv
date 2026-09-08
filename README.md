@@ -35,7 +35,7 @@
     sub-ass-override=force
     sub-font="Trebuchet MS Bold"
     sub-border-size=2
-    sub-shadow-offset=2.5
+    sub-shadow-offset=2
     sub-bold=yes 
 
     framedrop=no
