@@ -19,6 +19,7 @@
     osc=no
     osd-bar=no
     title-bar=no
+    slang=en
     vo=gpu-next
     hwdec=auto
     gpu-api=d3d11
