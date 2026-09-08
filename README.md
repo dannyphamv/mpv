@@ -19,7 +19,6 @@
     osc=no
     osd-bar=no
     title-bar=no
-    slang=en
     vo=gpu-next
     hwdec=auto
     gpu-api=d3d11
@@ -31,6 +30,13 @@
     keep-open=yes
     audio-normalize-downmix=no
     gpu-shader-cache=yes
+
+    slang=en
+    sub-ass-override=force
+    sub-font="Trebuchet MS Bold"
+    sub-border-size=2
+    sub-shadow-offset=2.5
+    sub-bold=yes 
 
     framedrop=no
     hr-seek-framedrop=no
