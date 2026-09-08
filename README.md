@@ -5,7 +5,9 @@
 **Alternative OSC for mpv**
 - [ModernZ](https://github.com/Samillion/ModernZ)
 
-**Scripts**
+**Scripts & Add-ons**
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [sponsorblock_minimal](https://codeberg.org/jouni/mpv_sponsorblock_minimal)
 - [celebi](https://github.com/po5/celebi)
 - [thumbfast](https://github.com/po5/thumbfast)
 - [MPV-Single-Instance](https://github.com/ashik4u/MPV-Single-Instance)
@@ -37,6 +39,9 @@
 
     screenshot-format=jpg
     screenshot-jpeg-quality=100
+
+    ytdl-format=bestvideo[height<=1440]+bestaudio/best[height<=1440]
+    ytdl-raw-options=format-sort=codec:av01
     ```
 
 - [ModernZ](https://github.com/Samillion/ModernZ)
