@@ -13,7 +13,7 @@
 - [MPV-Single-Instance](https://github.com/ashik4u/MPV-Single-Instance)
 
 **Configs**
-- [**`mpv.conf`**](https://mpv.io/)
+- #### **`mpv.conf`**
 
 ```
 osc=no
@@ -51,7 +51,7 @@ ytdl-format=bestvideo[height<=1440]+bestaudio/best[height<=1440]
 ytdl-raw-options=format-sort=codec:av01
 ```
 
-- [**`modernz.conf`**](https://github.com/Samillion/ModernZ)
+- #### **`modernz.conf`**
 
 ```
 windowcontrols_close_hover=#3C71F7
@@ -64,20 +64,20 @@ hover_effect_color=#3C71F7
 nibble_color=#3C71F7
 ```
 
-- [**`celebi.conf`**](https://github.com/po5/celebi)
+- #### **`celebi.conf`**
 
 ```
 volume=yes
 sub-pos=yes
 ```
 
-- [**`thumbfast.conf`**](https://github.com/po5/thumbfast)
+- #### **`thumbfast.conf`**
 
 ```
 spawn_first=yes
 ```
 
-- [**`single_instance.conf`**](https://github.com/ashik4u/MPV-Single-Instance)
+- #### **`single_instance.conf`**
 
 ```
 default_play_mode=replace
