@@ -30,6 +30,9 @@ geometry=1920x1080
 keep-open=yes
 audio-normalize-downmix=no
 gpu-shader-cache=yes
+video-sync=display-resample
+
+profile=high-quality
 
 slang=en
 sub-ass-override=force
@@ -47,8 +50,13 @@ watch-later-options-remove=osd-margin-y
 screenshot-format=jpg
 screenshot-jpeg-quality=100
 
+# Network playback
 ytdl-format=bestvideo[height<=1440]+bestaudio/best[height<=1440]
-ytdl-raw-options=format-sort=codec:av01
+ytdl-raw-options=format-sort=codec:av01,concurrent-fragments=8
+cache=yes
+cache-secs=120
+demuxer-max-bytes=500MiB
+demuxer-max-back-bytes=100MiB
 ```
 
 - #### **`modernz.conf`**
