@@ -30,7 +30,7 @@ geometry=1920x1080
 keep-open=yes
 audio-normalize-downmix=no
 gpu-shader-cache=yes
-video-sync=display-resample
+video-sync=audio
 
 profile=high-quality
 
