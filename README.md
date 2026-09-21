@@ -55,8 +55,6 @@ ytdl-format=bestvideo[height<=1440]+bestaudio/best[height<=1440]
 ytdl-raw-options=format-sort=codec:av01,concurrent-fragments=8
 cache=yes
 cache-secs=120
-demuxer-max-bytes=500MiB
-demuxer-max-back-bytes=100MiB
 ```
 
 - #### **`modernz.conf`**
